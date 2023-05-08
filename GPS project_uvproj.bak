@@ -436,16 +436,6 @@
               <FilePath>.\MCAL\GPIO\GPIO.c</FilePath>
             </File>
             <File>
-              <FileName>Sistick.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\MCAL\Sistick\Sistick.c</FilePath>
-            </File>
-            <File>
-              <FileName>Sistick.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\MCAL\Sistick\Sistick.h</FilePath>
-            </File>
-            <File>
               <FileName>UART.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\MCAL\UART\UART.c</FilePath>
@@ -455,10 +445,32 @@
               <FileType>5</FileType>
               <FilePath>.\MCAL\UART\UART.h</FilePath>
             </File>
+            <File>
+              <FileName>Systick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\MCAL\Systick\Systick.c</FilePath>
+            </File>
+            <File>
+              <FileName>Systick.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\MCAL\Systick\Systick.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
           <GroupName>HAL</GroupName>
+          <Files>
+            <File>
+              <FileName>LCD.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\HAL\LCD\LCD.h</FilePath>
+            </File>
+            <File>
+              <FileName>LCD.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HAL\LCD\LCD.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>Application</GroupName>

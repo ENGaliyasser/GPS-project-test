@@ -5,7 +5,7 @@
 #define I 'I'
 #define H 'H'
 #define L 'L'
-void SystemInit(){}
+
 
 void GPIO_InitPort(uint8_t port)
 {
@@ -243,22 +243,22 @@ uint8_t GPIO_GetPinValue(uint8_t port, uint8_t pin)
     }
     return value;
 }
-int main()
-{
-	GPIO_InitPort('F');
-	GPIO_SetPinDirection('F',1,'O');
-	GPIO_SetPinDirection('F',0,'I');
-	while(1){
-		uint8_t x=!GPIO_GetPinValue('F',0);
-	if(x){
-		GPIO_SetPinValue('F',1,'H');
-		//GPIO_PORTF_DATA_R = 0x02;
-	}
-	else{
-		GPIO_SetPinValue('F',1,'L');
-	}
-	}
-}
+//int main()
+//{
+//	GPIO_InitPort('F');
+//	GPIO_SetPinDirection('F',1,'O');
+//	GPIO_SetPinDirection('F',0,'I');
+//	while(1){
+//		uint8_t x=!GPIO_GetPinValue('F',0);
+//	if(x){
+//		GPIO_SetPinValue('F',1,'H');
+//		//GPIO_PORTF_DATA_R = 0x02;
+//	}
+//	else{
+//		GPIO_SetPinValue('F',1,'L');
+//	}
+//	}
+//}
 
 
-	
+//	

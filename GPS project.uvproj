@@ -470,10 +470,42 @@
               <FileType>1</FileType>
               <FilePath>.\HAL\LCD\LCD.c</FilePath>
             </File>
+            <File>
+              <FileName>LED.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\HAL\LED\LED.h</FilePath>
+            </File>
+            <File>
+              <FileName>LED.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HAL\LED\LED.c</FilePath>
+            </File>
+            <File>
+              <FileName>GPS.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HAL\GPS\GPS.c</FilePath>
+            </File>
+            <File>
+              <FileName>GPS.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\HAL\GPS\GPS.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
           <GroupName>Application</GroupName>
+          <Files>
+            <File>
+              <FileName>App.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Application\App.c</FilePath>
+            </File>
+            <File>
+              <FileName>App.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Application\App.h</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>

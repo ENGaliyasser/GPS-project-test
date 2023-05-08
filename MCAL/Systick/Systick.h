@@ -4,6 +4,7 @@
 #include "../../Utilities/tm4c123gh6pm.h"
 #include "../../Utilities/bitManipulation.h"
 
+
 #define MAX 0x00FFFFFF      /* MAX value of the Reload Register */
 #define MAXSEC 16000000
 #define MAX_M_SEC 16000

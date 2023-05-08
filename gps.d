@@ -1,0 +1,10 @@
+.\gps.o: HAL\GPS\GPS.c
+.\gps.o: HAL\GPS\GPS.h
+.\gps.o: HAL\GPS\../../MCAL/GPIO/GPIO.h
+.\gps.o: HAL\GPS\../../MCAL/GPIO/../../Utilities/tm4c123gh6pm.h
+.\gps.o: HAL\GPS\../../MCAL/GPIO/../../Utilities/bitManipulation.h
+.\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\math.h
+.\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\gps.o: HAL\GPS\../../MCAL/UART/UART.h

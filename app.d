@@ -1,0 +1,13 @@
+.\app.o: Application\App.c
+.\app.o: Application\APP.h
+.\app.o: .\MCAL\GPIO\../../Utilities/bitManipulation.h
+.\app.o: .\MCAL\GPIO\../../Utilities/tm4c123gh6pm.h
+.\app.o: .\MCAL\GPIO\../../MCAL/GPIO/GPIO.h
+.\app.o: .\MCAL\GPIO\../../MCAL/UART/UART.h
+.\app.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\app.o: .\MCAL\GPIO\../../HAL/GPS/GPS.h
+.\app.o: C:\Keil\ARM\ARMCC\bin\..\include\math.h
+.\app.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\app.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\app.o: .\MCAL\GPIO\../../HAL/GPS/../../MCAL/UART/UART.h
+.\app.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h

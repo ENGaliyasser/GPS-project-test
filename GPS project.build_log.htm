@@ -7,22 +7,98 @@ G:\GPS project\GPS project.uvproj
 Project File Date:  05/07/2023
 
 <h2>Output:</h2>
-Build target 'Target 1'
+Rebuild target 'Target 1'
+assembling startup_TM4C123.s...
 compiling GPIO.c...
 MCAL\GPIO\GPIO.c(264): warning:  #1-D: last line of file ends without a newline
-        
+  //    
 MCAL\GPIO\GPIO.c: 1 warning, 0 errors
 compiling UART.c...
+MCAL\UART\UART.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif /* UART_H_ */
+MCAL\UART\UART.c(187): warning:  #111-D: statement is unreachable
+                     break;
+MCAL\UART\UART.c(191): warning:  #111-D: statement is unreachable
+                     break;
+MCAL\UART\UART.c(195): warning:  #111-D: statement is unreachable
+                     break;
+MCAL\UART\UART.c(199): warning:  #111-D: statement is unreachable
+                     break;
+MCAL\UART\UART.c(203): warning:  #111-D: statement is unreachable
+                     break;
+MCAL\UART\UART.c(207): warning:  #111-D: statement is unreachable
+                     break;
+MCAL\UART\UART.c(212): warning:  #111-D: statement is unreachable
+                     break;
+MCAL\UART\UART.c(216): warning:  #111-D: statement is unreachable
+                     break;
+MCAL\UART\UART.c(219): warning:  #111-D: statement is unreachable
+                       break;
+MCAL\UART\UART.c(239): warning:  #1-D: last line of file ends without a newline
+  }
+MCAL\UART\UART.c: 11 warnings, 0 errors
 compiling Systick.c...
-MCAL\Systick\systick.h(16): warning:  #1-D: last line of file ends without a newline
+MCAL\Systick\systick.h(17): warning:  #1-D: last line of file ends without a newline
   #endif /* SYSTICK_H_ */
 MCAL\Systick\Systick.c: 1 warning, 0 errors
 compiling LCD.c...
-HAL\LCD\../../MCAL/Systick/Systick.h(16): warning:  #1-D: last line of file ends without a newline
+HAL\LCD\../../MCAL/Systick/Systick.h(17): warning:  #1-D: last line of file ends without a newline
   #endif /* SYSTICK_H_ */
 HAL\LCD\LCD.h(36): warning:  #1-D: last line of file ends without a newline
   #endif /* LCD_H_ */
 HAL\LCD\LCD.c: 2 warnings, 0 errors
+compiling LED.c...
+HAL\LED\LED.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif /* LED_H_ */
+HAL\LED\LED.c(4): warning:  #223-D: function "GPIO_SetPinDirection" declared implicitly
+        GPIO_SetPinDirection(port, pin, 'I');
+HAL\LED\LED.c(17): warning:  #223-D: function "GPIO_SetPinDirection" declared implicitly
+        GPIO_SetPinDirection(port, pin, 'O');
+HAL\LED\LED.c(21): warning:  #1-D: last line of file ends without a newline
+  }
+HAL\LED\LED.c: 4 warnings, 0 errors
+compiling GPS.c...
+HAL\GPS\../../MCAL/UART/UART.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif /* UART_H_ */
+HAL\GPS\GPS.h(12): warning:  #1295-D: Deprecated declaration GPS_read - give arg types
+  void GPS_read ();
+HAL\GPS\GPS.h(13): warning:  #1295-D: Deprecated declaration GPS_format - give arg types
+  void GPS_format ();
+HAL\GPS\GPS.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* GPS_H_ */
+HAL\GPS\GPS.c(68): warning:  #1-D: last line of file ends without a newline
+        }
+HAL\GPS\GPS.c: 5 warnings, 0 errors
+compiling App.c...
+.\MCAL\GPIO\../../MCAL/UART/UART.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif /* UART_H_ */
+.\MCAL\GPIO\../../HAL/GPS/../../MCAL/UART/UART.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif /* UART_H_ */
+.\MCAL\GPIO\../../HAL/GPS/GPS.h(12): warning:  #1295-D: Deprecated declaration GPS_read - give arg types
+  void GPS_read ();
+.\MCAL\GPIO\../../HAL/GPS/GPS.h(13): warning:  #1295-D: Deprecated declaration GPS_format - give arg types
+  void GPS_format ();
+.\MCAL\GPIO\../../HAL/GPS/GPS.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* GPS_H_ */
+Application\APP.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+Application\App.c(4): warning:  #223-D: function "GPIO_InitPort" declared implicitly
+  GPIO_InitPort('B');
+Application\App.c(7): warning:  #223-D: function "LCD_init" declared implicitly
+  LCD_init();
+Application\App.c(18): warning:  #1-D: last line of file ends without a newline
+  }
+Application\App.c: 9 warnings, 0 errors
 linking...
-Program Size: Code=2144 RO-data=636 RW-data=0 ZI-data=608  
-".\GPS project.axf" - 0 Error(s), 4 Warning(s).
+Program Size: Code=10784 RO-data=812 RW-data=0 ZI-data=608  
+".\GPS project.axf" - 0 Error(s), 33 Warning(s).
+</pre>
+</body>
+</html>
+M_use_no_argv multiply defined (by app.o and gpio.o).
+.\GPS project.axf: Error: L6200E: Symbol main multiply defined (by app.o and gpio.o).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 3 error messages.
+".\GPS project.axf" - 3 Error(s), 33 Warning(s).
+Target not created
