@@ -1,0 +1,27 @@
+Dependencies for Project 'GPS project', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Utilities\startup_TM4C123.s)(0x64395B0F)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\Utilities\tm4c123gh6pm.h)(0x5388606A)()
+F (.\Utilities\bitManipulation.h)(0x64395BA9)()
+F (.\MCAL\GPIO\GPIO.h)(0x64395B95)()
+F (.\MCAL\GPIO\GPIO.c)(0x643B2670)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I.\Utilities -I.\MCAL\GPIO-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (MCAL\GPIO\GPIO.h)(0x64395B95)
+I (MCAL\GPIO\../../Utilities/tm4c123gh6pm.h)(0x5388606A)
+I (MCAL\GPIO\../../Utilities/bitManipulation.h)(0x64395BA9)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+F (.\MCAL\UART\UART.c)(0x64579DC5)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I.\Utilities -I.\MCAL\GPIO-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+F (.\MCAL\UART\UART.h)(0x64579DD8)()
+F (.\MCAL\Systick\Systick.c)(0x6457A6F8)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I.\Utilities -I.\MCAL\GPIO-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)
+I (MCAL\Systick\systick.h)(0x6457AC2A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (MCAL\Systick\../../Utilities/tm4c123gh6pm.h)(0x5388606A)
+I (MCAL\Systick\../../Utilities/bitManipulation.h)(0x64395BA9)
+F (.\MCAL\Systick\Systick.h)(0x6457AC2A)()
+F (.\HAL\LCD\LCD.h)(0x6458A2A8)()
+F (.\HAL\LCD\LCD.c)(0x6458A2A7)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I.\Utilities -I.\MCAL\GPIO-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (HAL\LCD\LCD.h)(0x6458A2A8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (HAL\LCD\../../Utilities/tm4c123gh6pm.h)(0x5388606A)
+I (HAL\LCD\../../Utilities/bitManipulation.h)(0x64395BA9)
+I (HAL\LCD\../../MCAL/Systick/Systick.h)(0x6457AC2A)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C819B4)
